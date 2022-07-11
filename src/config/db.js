@@ -4,7 +4,7 @@ import Sequelize from 'sequelize';
 
 const database = new Sequelize('heroku_43e2f81835bcbf7', 'b75bf626251fd0', '2398153a', {
     host: 'us-cdbr-east-06.cleardb.net',  
-    dialect: "sqlite"
+    dialect: "mysql"
   });
 
 export default database

@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\olive\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add mysql2
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\olive\AppData\Local\Microsoft\WindowsApps;C:\Users\olive\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\olive\AppData\Roaming\npm;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\olive\AppData\Local\Yarn\Cache\v6\npm-sequelize-6.21.3-6026b088b5327f8cc0501b0e7e5a8de1bf0346ce-integrity\node_modules\sequelize\lib\errors\connection\access-denied-error.js' -> 'C:\Users\olive\OneDrive\Desktop\DEV\sorocaba-backend\node_modules\sequelize\lib\errors\connection\access-denied-error.js'
+
+npm manifest: 
+  {
+    "name": "sorocaba-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "type": "module",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.1",
+      "express": "^4.18.1",
+      "jsonwebtoken": "^8.5.1",
+      "mysql2": "^2.3.3",
+      "sequelize": "^6.21.2",
+      "sql": "^0.78.0",
+      "sqlite3": "^5.0.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
