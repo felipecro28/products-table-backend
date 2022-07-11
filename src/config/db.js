@@ -1,11 +1,12 @@
 import Sequelize from 'sequelize';
-import dotenv from 'dotenv'
- 
-dotenv.config()
 
-const database = new Sequelize(process.env.DB_DATABASE_NAME, process.env.DB_USERNAME, process.env.DB_PASSWORD, {
-    host: process.env.DB_HOST,  
+  //*// CRIANDO A CONEXÃO COM O BANCO DE DADOS //*//
+
+const database = new Sequelize('heroku_43e2f81835bcbf7', 'b75bf626251fd0', '2398153a', {
+    host: 'us-cdbr-east-06.cleardb.net',  
     dialect: "sqlite"
   });
 
-export default database
+
+
+  
