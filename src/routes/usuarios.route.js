@@ -18,7 +18,7 @@ usuariosRouter.post('/', login , (req, res) => {
 });
 
 usuariosRouter.post('/login' ,(req, res, next)=> {
-    UsuariosControllers.realizarLogin(req, res)
+    UsuariosControllers.realizarLogin(req, res, next)
 })
 
 usuariosRouter.patch('/:id', login , (req, res) => {

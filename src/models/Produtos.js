@@ -1,4 +1,4 @@
-import sequelize, {
+import {
     Model,
     Sequelize
 } from "sequelize";

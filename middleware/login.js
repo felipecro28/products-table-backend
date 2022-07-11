@@ -10,7 +10,7 @@ const login = (req, res, next) => {
         next()
     } catch (error) {
         res.status(401).json({
-            Message: 'opa deu erro aqui'
+            Message: 'Erro na validação do usuário. O usuário precisa estar logado.'
         })
     }
 }
