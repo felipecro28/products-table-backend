@@ -17,7 +17,7 @@ usuariosRouter.post('/', login , (req, res) => {
     UsuariosControllers.criarUsuario(req, res)
 });
 
-usuariosRouter.post('/login', login ,(req, res, next)=> {
+usuariosRouter.post('/login' ,(req, res, next)=> {
     UsuariosControllers.realizarLogin(req, res)
 })
 
