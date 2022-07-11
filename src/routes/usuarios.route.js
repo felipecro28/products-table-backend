@@ -13,7 +13,7 @@ usuariosRouter.get('/:id', async (req, res) => {
     UsuariosControllers.listOne(req, res)
 });
 
-usuariosRouter.post('/', (req, res) => {
+usuariosRouter.post('/', login, (req, res) => {
     UsuariosControllers.criarUsuario(req, res)
 });
 
