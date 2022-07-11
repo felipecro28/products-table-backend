@@ -1,5 +1,6 @@
 import express from 'express'
 import ClientesControllers from '../controllers/ClientesController.js'
+import login from '../../middleware/login.js';
 
 const produtosRouter = express.Router()
 
