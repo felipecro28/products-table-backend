@@ -14,15 +14,15 @@ produtosRouter.get('/:id', async (req, res) => {
 });
 
 produtosRouter.post('/', login, (req, res) => {
-    ClientesControllers.criarProduto(req, res)
+    ClientesControllers.criarCliente(req, res)
 });
 
 produtosRouter.patch('/:id', login, (req, res) => {
-    ClientesControllers.editarProduto(req, res)
+    ClientesControllers.editarCliente(req, res)
 });
 
 produtosRouter.delete('/:id', login, (req, res) => {
-    ClientesControllers.deletaProduto(req, res)
+    ClientesControllers.deletaCliente(req, res)
 });
 
 

@@ -23,7 +23,7 @@ class ClientesControllers {
         }
     }
 
-    static async criarcliente(req, res){
+    static async criarCliente(req, res){
         try {
             await Clientes.create(req.body)
             res.status(200).json('cliente cadastrado com sucesso')
@@ -32,7 +32,7 @@ class ClientesControllers {
         }
     }
 
-    static async editarcliente(req, res){
+    static async editarCliente(req, res){
         try {
             const id = req.params.id
             Clientes.update(
@@ -48,7 +48,7 @@ class ClientesControllers {
             res.status(400).json(({ Error: error.message }))
         }
     }
-    static async deletacliente(req, res){
+    static async deletaCliente(req, res){
         try {
             const id = req.params.id
             Clientes.destroy(
