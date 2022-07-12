@@ -27,6 +27,14 @@ Produtos.init({
     },
     valorDeVenda: {
         type: Sequelize.INTEGER,
+    },
+    quantidade: {
+        type: Sequelize.INTEGER
+    },
+    
+    status:{
+        type: Sequelize.STRING,
+        defaultValue: 'Em processo' 
     }
 
 }, {
