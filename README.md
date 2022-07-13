@@ -1,4 +1,4 @@
-USUÁRIOS, CLIENTES E PRODUTOS API
+# NODE.JS API
 
 ## Descrição da aplicação:
 A aplicação é um ambiente back-end utilizado para simular a rotina de cadastro de clientes, usuários e produtos. Foi utilizado o banco de dados relacional Mysql, o padrão do tipo REST e como organização o conceito de arquitetura MVC.
