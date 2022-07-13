@@ -1,0 +1,33 @@
+
+Request: GET //api/usuarios at Wed Jul 13 2022 12:32:12 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.29.0
+Request Body:
+{
+	"id": 24,
+	"valorDeVenda": 1212,
+	"quantidade": 200
+}
+Response: 404 2.051 ms 
+
+Request: GET /api/usuarios at Wed Jul 13 2022 12:32:19 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.29.0
+Request Body:
+{
+	"id": 24,
+	"valorDeVenda": 1212,
+	"quantidade": 200
+}
+Response Body:
+[
+	{
+		"id": 14,
+		"username": "felipeTeste",
+		"name": "Felipe",
+		"password": "teste123"
+	},
+	{
+		"id": 24,
+		"username": "teste1",
+		"name": "Teste",
+		"password": "teste123"
+	}
+]
+Response: 200 1737.122 ms 
